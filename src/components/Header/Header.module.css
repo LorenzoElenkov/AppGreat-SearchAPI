@@ -1,0 +1,107 @@
+nav {
+    height: max-content;
+    display: grid;
+    padding: 0 10px;
+    align-items: center;
+}
+
+.siteTitle {
+    justify-self: center;
+    font-size: 1.2rem;
+    color: #05386b;
+    font-weight: 700;
+    grid-column: 1/1;
+    grid-row: 1/1;
+}
+
+.signOutBut {
+    justify-self: end;
+    font-size: 0.9rem;
+    grid-column: 1/1;
+    grid-row: 1/1;
+    padding: 5px 15px;
+    border: none;
+    border: 2px solid #05386b;
+    border-radius: 0 0 10px 10px;
+    height: 100%;
+    color: #5cdb95;
+    font-weight: 600;
+    position: relative;
+    background-color: transparent;
+    overflow: hidden;
+    transition: color 0.35s ease-in-out;
+}
+
+.signOutButInner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #05386b;
+    z-index: -1;
+    transition: all 0.35s ease-in-out;
+}
+
+.signOutBut:hover {
+    color: #05386b;
+}
+
+.signOutBut:hover .signOutButInner {
+    top: -80%;
+}
+
+.userName {
+    grid-column: 1/1;
+    grid-row: 1/1;
+    justify-self: end;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: end;
+    margin-right: 107.5px;
+    border-right: 2px solid #05386b;
+    padding: 5px 10px;
+    color: #05386b;
+}
+
+@media screen and (max-width: 350px) {
+    .siteTitle {
+        justify-self: start;
+        font-size: 0.7rem;
+    }
+    .signOutBut {
+        font-size: 0.6rem;
+        padding: 20px 10px 10px 10px;
+    }
+
+    .userName {
+        margin-right: 75px;
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (min-width: 351px) and (max-width: 450px) {
+    
+    .siteTitle {
+        justify-self: start;
+        font-size: 0.9rem;
+    }
+
+    .signOutBut {
+        font-size: 0.8rem;
+        padding: 20px 10px 10px 10px;
+    }
+
+    .userName {
+        margin-right: 90px;
+        font-size: 0.9rem;
+    }
+
+}
+
+@media screen and (min-width: 451px) and (max-width: 700px) {
+    .siteTitle {
+        justify-self: start;
+    }
+}
+
