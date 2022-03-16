@@ -24,6 +24,7 @@ This is a project, which was given as a home task from a company that I applied 
 1. ReactJS
 2. CSS Modules
 3. Pexels API
+4. Firebase Authentication
 
 ## Is the app responsive?
 The app is configured to be responsive to a few breakpoints using media queries.
