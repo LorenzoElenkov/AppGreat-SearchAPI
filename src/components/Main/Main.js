@@ -33,8 +33,8 @@ const Main = (props) => {
         })
     }, []);
 
-    const handleSearchSubmit = () => {
-        // e.preventDefault();
+    const handleSearchSubmit = (e) => {
+        e.preventDefault();
         let query = inputRef.current.value;
         let tempResults = [];
         const url = "https://api.pexels.com/v1/search?query=" + query + "&orientation=landscape&per_page=16";
