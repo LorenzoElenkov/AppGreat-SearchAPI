@@ -39,7 +39,22 @@
     border-top: 2px solid rgba(0, 0, 0, 0.225);
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 350px) {
+    .imgCard {
+        width: 100%;
+    }
+    .image {
+        width: 100%;
+    }
+    .description {
+        font-size: 0.9rem;
+    }
+    .authorLink {
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (min-width:351px) and (max-width: 450px) {
     .imgCard {
         width: 100%;
     }
@@ -50,6 +65,12 @@
     }
     .image {
         width: 100%;
+    }
+    .description {
+        font-size: 1.1rem;
+    }
+    .authorLink {
+        font-size: 1rem;
     }
 }
 
