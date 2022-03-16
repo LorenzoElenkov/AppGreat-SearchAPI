@@ -25,6 +25,9 @@ This is a project, which was given as a home task from a company that I applied 
 2. CSS Modules
 3. Pexels API
 
+## Is the app responsive?
+The app is configured to be responsive to a few breakpoints using media queries.
+
 ## What resources did you use?
 - [Pexels API](https://www.pexels.com/api/documentation/?language=javascript#photos-search__parameters__orientation)
 - [Visme Website Color Schemes](https://visme.co/blog/website-color-schemes/)
