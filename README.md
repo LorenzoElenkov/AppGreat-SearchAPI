@@ -20,6 +20,11 @@ This is a project, which was given as a home task from a company that I applied 
 1. Google Login Button
 2. Results are shown on every keystroke in the search input field
 
-## What resources have you used?
+## What framework/libraries did you use?
+1. ReactJS
+2. CSS Modules
+3. Pexels API
+
+## What resources did you use?
 - [Pexels API](https://www.pexels.com/api/documentation/?language=javascript#photos-search__parameters__orientation)
 
